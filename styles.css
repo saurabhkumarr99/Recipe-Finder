@@ -109,3 +109,20 @@ input[type="text"]:focus {
     font-size: 25px;
     color: #FFA500; /* Orange color */
 }
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    /* Adjust the search container */
+    .search-container {
+        max-width: 90%; /* Adjust width for smaller screens */
+        margin: 20px auto; /* Center the search bar with margin */
+    }
+
+    input[type="text"] {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+
+    .recipe-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 recipes in a row for smaller screens */
+    }
+}
