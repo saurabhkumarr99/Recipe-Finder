@@ -6,7 +6,7 @@ Welcome to the Recipe Finder app! This application allows users to search for va
 
 ## Project Links
 
-- GitHub: [Recipe Finder Repository](https://github.com/your-username/recipe-finder)
+- GitHub: [Recipe Finder Repository](https://github.com/saurabhkumarr99/Recipe-Finder)
 - Live: [Recipe Finder Application](https://saurabhkumarr99.github.io/Recipe-Finder/)
 
 ## Table of Contents
