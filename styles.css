@@ -1,0 +1,111 @@
+/* Reset and general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Combine input and search button */
+.search-container {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 300px; /* Adjust as needed */
+    margin: 0 auto; /* Center the search bar */
+    background-color: #fff; /* White background */
+    border: 2px solid hwb(34 2% 9%);;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid #FFA500;
+    outline: none; /* Remove default focus outline */
+}
+
+input[type="text"]:focus {
+    border-color: hwb(34 2% 9%); /* Change border color on focus */
+}
+
+.search-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #FFA500; /* Orange button */
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+/* Grid layout */
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 recipes in a row */
+    gap: 20px;
+    padding: 20px;
+    max-width: 960px; /* Optional: Set a max-width for the grid */
+    margin: 0 auto; /* Optional: Center the grid */
+}
+
+.recipe-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px; /* Rounded borders */
+    border: 2px solid #FFA500;
+}
+
+.recipe-item img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #FFA500; /* Orange button */
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.recipe-button:hover {
+    background-color: #FF8C00; /* Darker orange on hover */
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    margin:10px 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #FFA500; /* Orange button */
+    border-radius: 5px; /* Rounded borders */
+}
+
+/* Style for the message when no recipes are found */
+.no-recipes-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #FFA500; /* Orange color */
+}
